@@ -37,3 +37,8 @@ if (altura < 0 || altura > 3.00){
     console.log("Altura inválida");
     AlturaEhvalida = false;
 }
+
+if (alturaEhValida && pesoEhValido){
+    var imc = peso / (altura * altura)
+    tdImc.TextContent = imc;
+}
