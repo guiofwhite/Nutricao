@@ -30,8 +30,10 @@ var alturaEhValida = true;
 
 if (peso < 0 || peso > 1000){
     console.log("Peso inválido");
+    PesoEhvalido = false;
 }
 
 if (altura < 0 || altura > 3.00){
     console.log("Altura inválida");
+    AlturaEhvalida = false;
 }
