@@ -43,6 +43,6 @@ if (alturaEhValida && pesoEhValido){
     tdImc.textContent = "Inválido!";
 }
 
-else (alturaEhValida && pesoEhValido){
+else (alturaEhValida && pesoEhValido)
     tdImc.textContent = imc;
-}
+
