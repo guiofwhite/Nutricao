@@ -44,5 +44,5 @@ if (alturaEhValido && pesoEhValido){
 }
 
 else (alturaEhValido && pesoEhValido)
-    tdImc.textContent = "inválido";
+    tdImc.textContent = imc;
 
