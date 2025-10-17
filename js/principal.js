@@ -24,7 +24,7 @@ var tdImc = document.querySelector(".info-imc");
 console.log(imc);
 
 var pesoEhValido = true;
-var alturaEhValida = true;
+var alturaEhValido = true;
 
 if (peso < 0 || peso > 1000){
     console.log("Peso inválido!");
@@ -34,15 +34,15 @@ if (peso < 0 || peso > 1000){
 
 if (altura < 0 || altura > 3.00){
     console.log("Altura inválida!");
-    alturaEhvalida = false;
+    alturaEhValido = false;
     tdImc.textContent = "Altura inválida!";
 }
 
-if (alturaEhValida && pesoEhValido){
+if (alturaEhValido && pesoEhValido){
     var imc = peso / (altura * altura);
     tdImc.textContent = "Inválido!";
 }
 
-else (alturaEhValida && pesoEhValido)
+else (alturaEhValido && pesoEhValido)
     tdImc.textContent = imc;
 
