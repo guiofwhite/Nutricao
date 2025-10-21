@@ -47,4 +47,3 @@ else (alturaEhValido && pesoEhValido)
 }
 var nome = tdNome.textContent;
 console.log(nome);
-
