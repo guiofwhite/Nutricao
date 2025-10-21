@@ -7,7 +7,8 @@ titulo.textContent = ("Nego nutritations");
 var pacientes = document.querySelectorAll(".paciente");
 
 for(var i = 0; i < pacientes.length; i++) {
-    console.log(pacientes[i]);
+    var paciente = pacientes[i];
+    
 
 var tdPeso = paciente.querySelector(".info-peso");
 var peso = tdPeso.textContent;
