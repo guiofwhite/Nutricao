@@ -6,14 +6,14 @@ titulo.textContent = ("Nego nutritations");
 
 var pacientes = document.querySelectorAll(".paciente");
 
-for(var i = 0; i < pacientes.length; i++){
+for(var i = 0; i < pacientes.length; i++) {
     console.log(pacientes[i]);
 
-var tdPeso = pacientes.querySelector(".info-peso");
+var tdPeso = paciente.querySelector(".info-peso");
 var peso = tdPeso.textContent;
 
 
-var tdAltura = pacientes.querySelector("#primeiro-paciente");
+var tdAltura = paciente.querySelector("#primeiro-paciente");
 var altura = tdAltura.textContent;
 
 
