@@ -4,35 +4,35 @@ console.log(titulo);
 console.log(titulo.textContent);
 titulo.textContent = ("Nego nutritations");
 
-var paciente = document.querySelector("#primeiro-paciente");
-var tdNome = document.querySelector(".info-nome");
+var paciente = document.querySelectorAll(".paciente");
+for(var i = 0; i < pacientes.length; i++){
+    console.log(pacientes[i]);
+}
 var nome = tdNome.textContent;
 console.log(nome);
 
 
 var tdPeso = paciente.querySelector(".info-peso");
 var peso = tdPeso.textContent;
-console.log(paciente);
-console.log(tdPeso);
 
-var tdAltura = document.querySelector("#primeiro-paciente");
-var tdAltura = document.querySelector(".info-altura");
+
+var tdAltura = paciente.querySelector("#primeiro-paciente");
 var altura = tdAltura.textContent;
-console.log(altura);
+
 
 var tdImc = document.querySelector(".info-imc");
-console.log(imc);
+
 
 var pesoEhValido = true;
 var alturaEhValido = true;
 
-if (peso < 0 || peso > 1000){
+if (peso <= 0 || peso >= 1000){
     console.log("Peso inválido!");
     pesoEhvalido = false;
     tdImc.textContent = "Peso inválido!";
 }
 
-if (altura < 0 || altura > 3.00){
+if (altura <= 0 || altura >= 3.00){
     console.log("Altura inválida!");
     alturaEhValido = false;
     tdImc.textContent = "Altura inválida!";
