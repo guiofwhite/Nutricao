@@ -5,12 +5,9 @@ console.log(titulo.textContent);
 titulo.textContent = ("Nego nutritations");
 
 var paciente = document.querySelectorAll(".paciente");
+
 for(var i = 0; i < pacientes.length; i++){
     console.log(pacientes[i]);
-}
-var nome = tdNome.textContent;
-console.log(nome);
-
 
 var tdPeso = paciente.querySelector(".info-peso");
 var peso = tdPeso.textContent;
@@ -45,4 +42,9 @@ if (alturaEhValido && pesoEhValido){
 
 else (alturaEhValido && pesoEhValido)
     tdImc.textContent = imc;
+
+
+}
+var nome = tdNome.textContent;
+console.log(nome);
 
