@@ -25,6 +25,7 @@ for(var i = 0; i < pacientes.length; i++) {
         console.log("Peso inválido!");
         pesoEhvalido = false;
         tdImc.textContent = "Peso inválido!";
+        paciente.computedStyleMap.backgroundColor = "lightcoral";
     }
 
     if (altura <= 0 || altura >= 3.00){
