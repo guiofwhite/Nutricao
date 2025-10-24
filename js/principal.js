@@ -35,7 +35,7 @@ for(var i = 0; i < pacientes.length; i++) {
 
     if (alturaEhValido && pesoEhValido){
         var imc = peso / (altura * altura);
-        tdImc.textContent = "Inválido!";
+        tdImc.textContent = imc.toFixed(2);
     }
 
 else (alturaEhValido && pesoEhValido)
