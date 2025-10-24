@@ -32,7 +32,7 @@ for(var i = 0; i < pacientes.length; i++) {
         console.log("Altura inválida!");
         alturaEhValido = false;
         tdImc.textContent = "Altura inválida!";
-        paciente.style.backgroundColor = "red";
+        paciente.style.backgroundColor = "lightblue";
     }
 
     if (alturaEhValido && pesoEhValido){
