@@ -83,4 +83,4 @@ pacienteTr.appendChild(gorduraTd);
 var tabela = document.querySelector("#tabela-pacientes");
 tabela.appendChild(pacienteTr);
 
-})
+});
