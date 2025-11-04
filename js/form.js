@@ -24,7 +24,7 @@ nomeTd.textContent = nome;
 pesoTd.textContent = peso;
 alturaTd.textContent = altura;
 gorduraTd.textContent = gordura;
-//imcTd.textContent = imc;
+imcTd.textContent = imc;
 
 pacienteTr.appendChild(nomeTd);
 pacienteTr.appendChild(pesoTd);
